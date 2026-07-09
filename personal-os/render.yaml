@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: personal-os
-    runtime: python
-    buildCommand: echo "Static site — no build step"
-    startCommand: python3 server.py
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.0"
