@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: personal-os
+    runtime: static
+    buildCommand: bash build.sh
+    staticPublishPath: public
